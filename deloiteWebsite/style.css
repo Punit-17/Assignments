@@ -1,0 +1,14 @@
+body{
+    background-color: dodgerblue;
+}
+
+.m-2{
+    margin: 30px 0px 0px 30px;
+}
+.logo{
+    margin-left: 40px;
+}
+
+.box{
+    border-radius: 10px;;
+}
