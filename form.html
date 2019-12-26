@@ -1,0 +1,78 @@
+<html>
+<head>
+<title> New Hire Registry Form</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="D:\training\assignment2\frm.css">
+
+</head>
+<form >
+<body>
+<div class="jumbotron text-center" style="background-color:3D906B" >
+<img src="https://media1.tenor.com/images/1d00a4c684c373583b032063badb6de7/tenor.gif?itemid=14286764" height="100" width="100">
+ <h1> New Hire Registry Form</h1>
+</div>
+
+<div class="row"  style="color:white">
+<div class="col-sm-12" align="center" style="background-color:292B30"> 
+<h3>First Name</h3>
+<input type="text" name="name" placeholder="First name" pattern="[A-Z]{1}[a-zA-Z]+" ><br><br>
+
+<h3>Last Name</h3>
+<input type="text" name="Lname" placeholder="First name"><br><br>
+
+<h3>Phone No.</h3>
+<input type="text" pattern="[6-9]{1}[0-9]{9}">
+
+<h3>Enter Email</h3>
+<input type="text" name="email" placeholder="abc@gmail.com" pattern="[A-Za-z   0-9_.]+[@]{1}[a-zA-Z]+(.com|.co.in|.in)"><br><br>
+
+<h3>Password</h3>
+<input type="password" pattern="[A-Z]{1}[a-zA-Z0-9!@#$%^&*]{7,}" >
+
+<h3>Gender</h3>
+<input type="radio" name="gender" value="M"><b>Male</b>
+<input type="radio" name="gender" value="F"><b>Female</b>
+<input type="radio" name="gender" value="oth"><b>Other<br><br></b>
+
+<h3>Enter Date Of Birth</h3>
+<input type="date" name="date"><br><br>
+
+<h3>Address</h3>
+<input type="textarea"><br><br>
+
+<h3>Selet Degree</h3>
+<select>
+<option>B.Tech</option>
+<option>BCA</option>
+<option>Bsc</option>
+<option>Others</option>
+</select><br><br>
+
+<h3>Employment Experience</h3>
+<input type="radio" name="Freshie" value="Freshie"><b>Freshie</b> &nbsp;&nbsp;
+<input type="radio" name="3 months" value="<3 months"><b>Less than 3 months </b>&nbsp; &nbsp;
+<input type="radio" name="3-12 months" value="3-12 months"><b>Between 3-12 months</b> &nbsp; &nbsp;
+<input type="radio" name=">12 months" value=">12 months"><b>More than 12 months</b>&nbsp; &nbsp;<br><br>
+
+<h3>Languages Known</h3>
+<input type="checkbox" name="English" value="Eng"><b>English</b> &nbsp;&nbsp;
+<input type="checkbox" name="hindi" value="hin"><b>Hindi</b> &nbsp;&nbsp;
+<b>Others(Mention)</b><input type="text" name="lang">&nbsp;&nbsp;<br><br>
+
+<h3>Preferred Job Location</h3>
+<select>
+<option>Bangalore</option>
+<option>Gurgaon</option>
+<option>Hyderabad</option>
+<option>Mumbai</option>
+</select><br><br>
+
+<h3>Upload Documents</h3>
+<input type="file" name="doc" value="id check"> <br> <br>
+
+<input type="Submit" name="Submit" value="Submit"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ <input type="Reset" name="Reset" value="Reset">
+</div>
+</form>
+</body>
+</html>
