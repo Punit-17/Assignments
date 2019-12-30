@@ -1,0 +1,162 @@
+<html>
+    <head>
+        <title>Login Page</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <style>
+        .mar{
+            margin-left: 420px;
+        }
+        .copy{
+            margin-left: 700px;
+            /* background-color: black; */
+            height: 80px;
+            color: white;
+            padding-top: 30px;
+            font-size: 20px;
+        }
+        /* body{
+            background-image: url(./assets/bg2.jpg);
+            background-attachment: fixed;
+            background-size: cover; */
+        /* } */
+        
+body {
+    margin:0;
+    font-size:16px;
+    font-family:'Open Sans', sans-serif;
+    background-image: url(./assets/background.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  
+  header {
+    float:left;
+    width:100%;
+    padding:5em 20% 2em;
+    background:rgba(0,128,128,0.8);
+    margin-bottom:1em;
+  }
+  
+  header a {
+    color:#56dcee;
+    opacity:0.5;
+    text-decoration:none;
+  }
+  
+  header a:hover {
+    color:#333;
+    opacity:1;
+  }
+  
+  
+  section {
+    float:left;
+    width:60%;
+    margin:3em 20%;
+  }
+  
+  
+  h1, h2 {
+    font-family:'Maven Pro', sans-serif;
+    margin:0;
+    font-weight:500;
+  }
+  
+  h1 {
+    color:#fff;
+    font-size:2.5em;
+  }
+  
+  h2 {
+    color:#56dcee;
+  }
+  
+  
+  
+  p {
+    padding:0 1em;
+    font-size:1em;
+  }
+  
+  html {
+         overflow-y: scroll;
+  }
+
+
+
+  
+/*DO NOT EDIT BELOW*/
+.footer {
+    background-color: rgba(0,128,128,0.8);
+    height: 150px;
+    width: 100%;
+    padding: 25px;
+  }
+  .whitetext {
+    color:white;
+    margin: 0px;
+    padding:0px;
+  }
+  .whitelogo {
+    color:white;
+    font-size:2em;
+  }
+  .whitelogo:hover {
+    color:lightgray;
+  }
+
+
+
+    </style>
+    </head>
+    
+        <body>
+
+            <form action="" onsubmit="return Validate()"> 
+                <header>
+                    <h1>IT CINEMA</h1>
+                    <h2>where stress comes to THE END</h2>
+                  </header>
+            <!-- <div class="jumbotron text-center" style="background-color:black; opacity: 0.7;">
+                 <h1 style="color: white;">IT Cinema</h1>
+                </div> -->
+                <div>
+                   <H3 class="mar" style="color: white">Enter your details</H3><br>
+<!-- 
+                   <input class="mar" type="text" name="" id="username" placeholder="Enter Full Name";>
+                   <i style="color:red; font-size:15px" class="errMSG" id="fNameErr"></i><br><br><br> -->
+                   
+                   <h5 class="mar" style="color: white;">Enter Email: </h5>
+                   <input class="mar" type="text" name="" id="email" placeholder="Enter valid Email">
+                   <i style="color:red; font-size:15px" class="errMSG" id="emailErr"></i><br><br>
+
+                   <h5 class="mar" style="color: white;">Enter Phone.No: </h5>
+                   <input class="mar" type="text" name="" id="mobile" placeholder="Enter Phone.No">
+                   <i style="color:red; font-size:15px" class="errMSG" id="mobileErr"></i><br><br>
+                    <input class="mar btn btn-lg btn-warning" type="submit" value="PROCEED" ><br><br>
+
+                </div>
+            </form>
+            <div class="container-fluid">
+                <div class="footer nav navbar navbar-full bg-faded">
+                  <div class="text-center">
+                    <div class="row">
+                      <div class="col-md-4 col-md-offset-4">
+                        <p class="whitetext">Copyright @ <strong>IT CINEMA</strong></p>
+                        <hr>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+              </div>
+            <!-- <div class="row">
+                <div class="col-md-12" style="background-color: black;height: 80px;opacity: 0.7;">
+                    <h6 style="line-height: 80px;color: white;">Copyright @ IT CINEMA</h6>
+                </div>
+            </div> -->
+                
+                <script src="./projform.js"></script>
+        </body>
+    
+    
+</html>
